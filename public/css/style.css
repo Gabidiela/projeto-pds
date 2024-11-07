@@ -1,0 +1,158 @@
+/* Estilo para o conteúdo principal */
+.main-content {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+.title-c {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.title-m {
+    font-weight: 300;
+    color: #333;
+}
+
+/* Estilo para o slogan */
+.slogan-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -230px; /* Ajustar para sobrepor mais o slogan na ilustração */
+    width: 55%; /* Ajuste para reduzir o tamanho do container e trazer o slogan para mais perto */
+    text-align: left;
+    position: relative;
+    z-index: 1; /* Elevar o slogan acima da ilustração */
+}
+
+.slogan {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 400;
+    max-width: 498px;
+    line-height: 1.4;
+}
+
+.highlight {
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilo para a ilustração */
+.illustration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0; /* Garantir que a ilustração fique abaixo do slogan */
+}
+
+.illustration {
+    margin-left: -60px; /* Traz a ilustração para mais perto do slogan */
+    width: 520px;
+}
+
+/* Sidebar e demais estilos */
+body {
+    background-color: #F5F4F6;
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+}
+
+input.form-control {
+    width: 250px !important;
+}
+
+#side_nav {
+    background: #1E1E1E;
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.nav-link {
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.container-fluid {
+    color: white;
+    margin-right: 50px;
+    width: 100px;
+}
+
+.navbar-cima {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar-expand-lg {
+    height: 77px;
+}
+
+hr.h-color {
+    color: rgb(220, 220, 220);
+    opacity: 1 !important;
+    width: 265px;
+    margin-left: 15px;
+}
+
+/* Sidebar e hover unificado para todos os botões */
+.sidebar ul li a {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar ul li:hover a {
+    background-color: #ffffff;
+    color: black;
+}
+
+.sidebar ul li.active a,
+.sidebar ul li.active a:hover {
+    background-color: white;
+    color: black;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Ajuste para consistência entre itens superiores e inferiores */
+.sidebar ul.fixed-bottom li a {
+    padding: 10px;
+}
+
+/* Logo na sidebar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.logo-texto {
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.logo-texto.c {
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.base{
+    margin-top: 20px;
+    padding: 15px;
+}
