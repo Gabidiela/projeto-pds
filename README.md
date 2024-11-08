@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  - duplique o arquivo .env-exemple e o renomeie para .env
  - configure seu arquivo .env, informando os dados do banco
  - rode -> composer install
@@ -74,3 +75,6 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# projeto-pds
+>>>>>>> refs/remotes/origin/main
